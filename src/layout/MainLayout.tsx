@@ -110,8 +110,8 @@ export default function MainLayout() {
 
       {/* Footer */}
       <footer className="bg-white border-t border-stone-100">
-        <div className="max-w-[1320px] mx-auto px-7 md:px-14 py-14 lg:py-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-10 lg:gap-x-10">
-          <div className="lg:pr-4">
+        <div className="max-w-[1320px] mx-auto px-7 md:px-14 py-14 lg:py-20 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-10 lg:gap-x-10">
+          <div className="col-span-2 lg:col-span-1 lg:pr-4">
             <h3 className="font-serif text-xl font-medium tracking-wide uppercase mb-5">Aurélie</h3>
             <p className="text-stone-500 text-sm leading-relaxed">
               Objects for a considered life. Natural materials, small workshops, and quiet design — chosen slowly, made to last.
@@ -137,7 +137,7 @@ export default function MainLayout() {
             </ul>
           </div>
           
-          <div>
+          <div className="col-span-2 lg:col-span-1">
             <h4 className="text-[10px] tracking-[0.2em] font-bold text-stone-900 uppercase mb-5">The Dispatch</h4>
             <p className="text-stone-500 text-sm leading-relaxed mb-5">
               New arrivals and studio notes, once a month. No noise.
