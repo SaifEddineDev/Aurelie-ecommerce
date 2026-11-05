@@ -25,7 +25,7 @@ export default function MainLayout() {
       {/* Sticky Header Group */}
       <div className="sticky top-0 z-50 w-full bg-white/85 backdrop-blur-md flex flex-col transition-colors shadow-[0_4px_20px_-15px_rgba(0,0,0,0.05)]">
         {/* Top Banner */}
-        <div className="bg-[#faf9f8]/60 py-1.5 text-center text-[8px] sm:text-[9px] tracking-[0.15em] text-stone-500 uppercase border-b border-stone-200/50">
+        <div className="bg-[#faf9f8]/60 py-1.5 text-center text-[9px] sm:text-[10px] tracking-[0.15em] text-stone-500 uppercase border-b border-stone-200/50">
           Complimentary shipping on orders over $150
         </div>
 
