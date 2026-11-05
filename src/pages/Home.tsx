@@ -16,15 +16,15 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full">
       {/* Hero Section */}
-      <section className="flex flex-col lg:flex-row min-h-[85vh]">
+      <section className="flex flex-col lg:flex-row lg:justify-between min-h-[80vh] max-w-[1390px] mx-auto w-full">
         {/* Left Content */}
-        <div className="w-full lg:w-[55%] flex flex-col justify-center px-8 md:px-16 lg:px-24 py-16 lg:py-0 bg-white order-2 lg:order-1">
+        <div className="w-full lg:w-[55%] flex flex-col justify-center px-10 md:px-16 lg:px-24 py-14 lg:py-0 bg-white order-2 lg:order-1">
           <div className="max-w-xl mx-auto lg:mx-0 w-full">
             <p className="text-[11px] tracking-[0.2em] text-stone-500 uppercase mb-8 font-medium">
               Issue No. 09 — The Autumn Edit
             </p>
             
-            <h2 className="font-serif text-[44px] sm:text-6xl lg:text-[72px] leading-[1.05] tracking-tight mb-8 text-stone-900">
+            <h2 className="font-serif text-[40px] sm:text-5xl lg:text-[64px] leading-[1.05] tracking-tight mb-8 text-stone-900">
               Objects for a <br className="hidden sm:block" />
               considered life.
             </h2>
@@ -48,7 +48,7 @@ export default function Home() {
         </div>
 
         {/* Right Image */}
-        <div className="w-full lg:w-[45%] relative h-[50vh] lg:h-auto bg-[#eaddd7] order-1 lg:order-2">
+        <div className="w-full lg:shrink-0 lg:w-[calc(40%_+_max(0px,((100vw_-_1390px)/2)))] relative h-[50vh] lg:h-auto bg-[#eaddd7] order-1 lg:order-2">
           <img 
             src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?q=80&w=2000&auto=format&fit=crop" 
             alt="Minimalist clothing rack with neutral tones"
@@ -58,7 +58,7 @@ export default function Home() {
       </section>
 
       {/* Shop by Category */}
-      <section className="py-20 md:py-28 px-6 md:px-12 max-w-[1400px] mx-auto w-full border-t border-stone-100">
+      <section className="py-18 md:py-24 px-8 md:px-16 max-w-[1320px] mx-auto w-full border-t border-stone-100">
         <div className="flex justify-between items-end mb-10 md:mb-12">
           <h2 className="font-serif text-3xl md:text-4xl text-stone-900">Shop by Category</h2>
           <Link to="/catalog" className="hidden sm:flex text-[10px] tracking-[0.2em] font-bold uppercase text-stone-500 hover:text-stone-900 transition-colors items-center">
@@ -86,7 +86,7 @@ export default function Home() {
 
       {/* The Edit - Featured */}
       <section className="w-full bg-[#faf9f8] border-t border-stone-100">
-        <div className="py-20 md:py-28 px-6 md:px-12 max-w-[1400px] mx-auto w-full">
+        <div className="py-18 md:py-24 px-8 md:px-16 max-w-[1320px] mx-auto w-full">
           <div className="flex justify-between items-end mb-10 md:mb-12">
             <h2 className="font-serif text-3xl md:text-4xl text-stone-900">The Edit — Featured</h2>
             <Link to="/catalog" className="hidden sm:flex text-[10px] tracking-[0.2em] font-bold uppercase text-stone-500 hover:text-stone-900 transition-colors items-center">
@@ -116,11 +116,11 @@ export default function Home() {
       </section>
 
       {/* Quote Section */}
-      <section className="bg-[#f4f4f4] py-32 px-6 text-center flex flex-col items-center justify-center border-t border-stone-200">
+      <section className="bg-[#f4f4f4] py-24 px-8 md:px-16 text-center flex flex-col items-center justify-center border-t border-stone-200">
         <p className="text-[10px] tracking-[0.2em] text-stone-500 uppercase mb-8 font-bold">
           From the studio
         </p>
-        <h2 className="font-serif text-3xl md:text-5xl leading-tight max-w-3xl mx-auto text-stone-900 mb-8 italic">
+        <h2 className="font-serif text-3xl md:text-4xl leading-tight max-w-2xl mx-auto text-stone-900 mb-8 italic">
           "Buy less, choose well, make it last. Quality is never out of fashion."
         </h2>
         <div className="flex items-center text-[10px] tracking-[0.2em] text-stone-500 uppercase">

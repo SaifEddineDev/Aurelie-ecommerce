@@ -55,7 +55,7 @@ export default function Login() {
         </div>
 
         {/* Right Side - Form panel */}
-        <div className="w-full flex flex-col justify-center px-8 py-16 md:px-16 lg:px-24">
+        <div className="w-full flex flex-col justify-center px-10 py-14 md:px-16 lg:px-24">
           <div className="w-full max-w-[420px] mx-auto lg:mx-0">
             <div className="mb-10">
               <h1 className="font-serif text-[32px] text-stone-900 mb-3">

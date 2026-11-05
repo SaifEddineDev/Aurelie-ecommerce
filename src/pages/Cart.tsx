@@ -40,7 +40,7 @@ export default function Cart() {
   if (cartItems.length === 0) {
     return (
       <div className="flex-1 flex w-full bg-[#faf9f8] min-h-[calc(100vh-140px)]">
-        <div className="max-w-[1000px] mx-auto px-6 py-16 md:py-24 w-full">
+        <div className="max-w-[960px] mx-auto px-8 py-16 md:py-24 w-full">
           <h1 className="font-serif text-[32px] text-stone-900 mb-8">Your Shopping Bag</h1>
           <div className="border border-stone-200 py-24 flex flex-col items-center justify-center bg-white">
             <div className="w-12 h-12 flex items-center justify-center border-2 border-stone-400 rounded-lg mb-4">
@@ -60,7 +60,7 @@ export default function Cart() {
   // State 3: Logged in, has items
   return (
     <div className="flex-1 flex flex-col w-full bg-[#faf9f8] min-h-[calc(100vh-140px)]">
-      <div className="max-w-[1200px] mx-auto px-6 py-12 md:py-20 w-full">
+      <div className="max-w-[1160px] mx-auto px-8 py-12 md:py-20 w-full">
         <h1 className="font-serif text-[32px] text-stone-900 mb-8">Your Shopping Bag</h1>
 
         <div className="flex flex-col lg:flex-row gap-16">

@@ -47,7 +47,7 @@ export default function Checkout() {
 
   return (
     <div className="flex-1 flex flex-col w-full bg-white min-h-[calc(100vh-140px)]">
-      <div className="max-w-[1200px] mx-auto px-6 py-12 md:py-16 w-full flex flex-col lg:flex-row gap-16 lg:gap-24">
+      <div className="max-w-[1160px] mx-auto px-8 py-12 md:py-16 w-full flex flex-col lg:flex-row gap-14 lg:gap-20">
         
         {/* Left Column - Form */}
         <div className="flex-1">

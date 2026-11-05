@@ -62,7 +62,7 @@ export default function ProductDetail() {
   return (
     <div className="flex-1 flex flex-col w-full bg-white">
       {/* Main Product Area */}
-      <div className="max-w-[1200px] mx-auto w-full px-6 py-12 md:py-16">
+      <div className="max-w-[1160px] mx-auto w-full px-8 py-12 md:py-16">
         
         {/* Breadcrumbs */}
         <div className="text-[9px] tracking-[0.2em] font-bold text-stone-400 uppercase mb-8 flex gap-2">
@@ -184,7 +184,7 @@ export default function ProductDetail() {
 
       {/* You May Also Like */}
       <div className="border-t border-stone-100 bg-[#faf9f8] mt-16">
-        <div className="max-w-[1200px] mx-auto px-6 py-20 w-full">
+        <div className="max-w-[1160px] mx-auto px-8 py-18 w-full">
           <div className="flex justify-between items-end mb-12">
             <h2 className="font-serif text-[28px] text-stone-900">You May Also Like</h2>
             <Link to="/catalog" className="hidden sm:flex text-[9px] tracking-[0.2em] font-bold uppercase text-stone-500 hover:text-stone-900 transition-colors items-center">

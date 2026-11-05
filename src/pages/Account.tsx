@@ -18,7 +18,7 @@ export default function Account() {
 
   return (
     <div className="flex-1 flex flex-col w-full bg-[#faf9f8] min-h-[calc(100vh-140px)]">
-      <div className="max-w-[760px] mx-auto px-6 py-12 md:py-16 w-full">
+      <div className="max-w-[740px] mx-auto px-8 py-12 md:py-16 w-full">
         {/* Breadcrumbs */}
         <div className="text-[9px] tracking-[0.2em] font-bold text-stone-400 uppercase mb-6 flex gap-2">
           <Link to="/" className="hover:text-stone-900 transition-colors">Home</Link>

@@ -114,7 +114,7 @@ export default function Catalog() {
     <div className="flex-1 flex flex-col w-full bg-[#faf9f8]">
       {/* Breadcrumb & Header */}
       <div className="border-b border-stone-200/60 bg-white">
-        <div className="max-w-[1400px] mx-auto px-6 md:px-12 py-10 md:py-16">
+        <div className="max-w-[1320px] mx-auto px-8 md:px-16 py-10 md:py-16">
           <p className="text-[10px] tracking-[0.2em] text-stone-400 uppercase mb-4">
             <span className="hover:text-stone-900 cursor-pointer transition-colors">Home</span>
             <span className="mx-2">/</span>
@@ -128,7 +128,7 @@ export default function Catalog() {
         </div>
       </div>
 
-      <div className="max-w-[1400px] mx-auto px-6 md:px-12 py-12 md:py-16 w-full flex flex-col lg:flex-row gap-12 lg:gap-24">
+      <div className="max-w-[1320px] mx-auto px-8 md:px-16 py-12 md:py-16 w-full flex flex-col lg:flex-row gap-12 lg:gap-20">
         {/* Sidebar Filters */}
         <aside className="w-full lg:w-48 shrink-0 flex flex-col gap-10">
           

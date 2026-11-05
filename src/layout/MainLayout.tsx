@@ -30,7 +30,7 @@ export default function MainLayout() {
         </div>
 
         {/* Header */}
-        <header className="px-6 md:px-12 py-5 md:py-6 flex items-center justify-between border-b border-stone-200/50 bg-transparent relative">
+        <header className="px-8 md:px-16 py-5 md:py-6 flex items-center justify-between border-b border-stone-200/50 bg-transparent relative">
           <div className="w-1/3 flex items-center">
             <button 
               onClick={() => setIsSearchOpen(!isSearchOpen)}
@@ -42,7 +42,7 @@ export default function MainLayout() {
           
           <div className="w-1/3 text-center flex justify-center">
             <Link to="/">
-              <h1 className="font-serif text-2xl md:text-3xl lg:text-[2rem] tracking-[0.1em] font-medium uppercase">
+              <h1 className="font-serif text-2xl md:text-3xl lg:text-[2rem] tracking-[0.1em] font-semibold uppercase">
                 Aurélie
               </h1>
             </Link>
@@ -69,7 +69,7 @@ export default function MainLayout() {
             isSearchOpen ? 'max-h-24 opacity-100' : 'max-h-0 opacity-0 border-transparent'
           }`}
         >
-          <div className="max-w-[800px] mx-auto px-6 py-3.5">
+          <div className="max-w-[780px] mx-auto px-8 py-3.5">
             <form onSubmit={handleSearchSubmit} className="relative flex items-center border-b border-stone-900 pb-2">
               <Search className="w-4 h-4 text-stone-400 absolute left-0" />
               <input 
@@ -110,17 +110,17 @@ export default function MainLayout() {
 
       {/* Footer */}
       <footer className="bg-white border-t border-stone-100">
-        <div className="max-w-[1400px] mx-auto px-6 md:px-12 py-16 lg:py-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
-          <div className="lg:pr-8">
-            <h3 className="font-serif text-2xl font-medium tracking-wide uppercase mb-6">Aurélie</h3>
+        <div className="max-w-[1320px] mx-auto px-7 md:px-14 py-14 lg:py-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-10 lg:gap-x-10">
+          <div className="lg:pr-4">
+            <h3 className="font-serif text-xl font-medium tracking-wide uppercase mb-5">Aurélie</h3>
             <p className="text-stone-500 text-sm leading-relaxed">
               Objects for a considered life. Natural materials, small workshops, and quiet design — chosen slowly, made to last.
             </p>
           </div>
           
           <div>
-            <h4 className="text-[10px] tracking-[0.2em] font-bold text-stone-900 uppercase mb-6">Shop</h4>
-            <ul className="space-y-4 text-sm text-stone-500">
+            <h4 className="text-[10px] tracking-[0.2em] font-bold text-stone-900 uppercase mb-5">Shop</h4>
+            <ul className="space-y-3 text-sm text-stone-500">
               <li><Link to="/" className="hover:text-stone-900 transition-colors">Apparel</Link></li>
               <li><Link to="/" className="hover:text-stone-900 transition-colors">Accessories</Link></li>
               <li><Link to="/" className="hover:text-stone-900 transition-colors">Home & Living</Link></li>
@@ -129,8 +129,8 @@ export default function MainLayout() {
           </div>
           
           <div>
-            <h4 className="text-[10px] tracking-[0.2em] font-bold text-stone-900 uppercase mb-6">Company</h4>
-            <ul className="space-y-4 text-sm text-stone-500">
+            <h4 className="text-[10px] tracking-[0.2em] font-bold text-stone-900 uppercase mb-5">Company</h4>
+            <ul className="space-y-3 text-sm text-stone-500">
               <li><Link to={isLoggedIn ? "/orders" : "/login"} className="hover:text-stone-900 transition-colors">Order History</Link></li>
               <li><Link to={isLoggedIn ? "/account" : "/login"} className="hover:text-stone-900 transition-colors">My Account</Link></li>
               <li><Link to="/cart" className="hover:text-stone-900 transition-colors">Shopping Bag</Link></li>
@@ -138,8 +138,8 @@ export default function MainLayout() {
           </div>
           
           <div>
-            <h4 className="text-[10px] tracking-[0.2em] font-bold text-stone-900 uppercase mb-6">The Dispatch</h4>
-            <p className="text-stone-500 text-sm leading-relaxed mb-4">
+            <h4 className="text-[10px] tracking-[0.2em] font-bold text-stone-900 uppercase mb-5">The Dispatch</h4>
+            <p className="text-stone-500 text-sm leading-relaxed mb-5">
               New arrivals and studio notes, once a month. No noise.
             </p>
             <form className="flex border border-stone-300">
@@ -159,7 +159,7 @@ export default function MainLayout() {
           </div>
         </div>
         
-        <div className="max-w-[1400px] mx-auto px-6 md:px-12 py-6 border-t border-stone-100 flex flex-col sm:flex-row items-center justify-between text-[10px] tracking-[0.1em] text-stone-400 uppercase gap-4">
+        <div className="max-w-[1320px] mx-auto px-7 md:px-14 py-6 border-t border-stone-100 flex flex-col sm:flex-row items-center justify-between text-[10px] tracking-[0.1em] text-stone-400 uppercase gap-4">
           <p>© 2024 Aurélie. All rights reserved.</p>
           <p className="tracking-[0.2em]">Issue No. 09 — The Autumn Edit</p>
         </div>

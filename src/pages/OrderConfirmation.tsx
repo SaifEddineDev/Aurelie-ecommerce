@@ -12,7 +12,7 @@ export default function OrderConfirmation() {
 
   return (
     <div className="flex-1 flex flex-col w-full bg-white min-h-[calc(100vh-140px)]">
-      <div className="max-w-[800px] mx-auto px-6 py-16 md:py-24 w-full">
+      <div className="max-w-[780px] mx-auto px-8 py-14 md:py-20 w-full">
         
         {/* Header / Success message */}
         <div className="text-center mb-12">

@@ -14,7 +14,7 @@ export default function OrderHistory() {
 
   return (
     <div className="flex-1 flex flex-col w-full bg-white min-h-[calc(100vh-140px)]">
-      <div className="max-w-[1000px] mx-auto px-6 py-12 md:py-16 w-full">
+      <div className="max-w-[960px] mx-auto px-8 py-12 md:py-16 w-full">
         {/* Breadcrumbs */}
         <div className="text-[9px] tracking-[0.2em] font-bold text-stone-400 uppercase mb-6 flex gap-2">
           <Link to="/" className="hover:text-stone-900 transition-colors">Home</Link>
